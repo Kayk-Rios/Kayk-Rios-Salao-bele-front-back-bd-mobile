@@ -1,12 +1,106 @@
-Projeto front-end, back-end com banco da dados junto a aplicaçao mobile, aplicaçao Web em Next.js e Ts, aplicaçao backend em Nest.js, aplicaçao mobile em React.native 
 
-Tecnologias principais usadas:  Next.j,Nest.js,PostgreSQL,Prisma,React.native e Ts
-Aplicaçao roda ao iniciar o comando "yarn run dev" no diretorio: salao-bele
-Web
+# 💇‍♀️ Salão Belê - Monorepo
 
-Acesse: https://salao-bele.netlify.app/
+Repositório monolítico contendo as aplicações **Web (Next.js)**, **Mobile (React Native)** e **Backend (NestJS)**, organizadas para o gerenciamento de um salão de beleza.
 
-caso querira usar com o banco de dados, veja o arquivo .env.sample na pasta backend e conecte-se a um banco de dados PostgreSql
+---
+
+## 📦 Estrutura do Projeto
+
+salao-bele/
+│
+
+├── frontend/ # Aplicação Web com Next.js
+
+├── backend/ # API com NestJS + Prisma + PostgreSQL
+
+└── mobile/ # Aplicação Mobile com React Native (Expo)
+
+
+
+## 🚀 Tecnologias Principais
+
+- **Next.js** + **TypeScript** (Web)
+- **React Native** + **Expo** (Mobile)
+- **NestJS** (Backend)
+- **PostgreSQL** (Banco de dados)
+- **Prisma** (ORM)
+
+---
+
+## 🌐 Aplicação Web
+
+🔗 Acesse em produção:  
+**https://salao-bele.netlify.app/**
+
+### ▶️ Como rodar localmente
+
+```bash
+cd frontend
+yarn dev
+📱 Aplicação Mobile
+Aplicação construída com React Native + Expo Router.
+
+▶️ Como rodar
+
+cd mobile
+yarn install
+yarn dev
+Você pode escolher entre:
+
+yarn android
+
+yarn ios
+
+yarn web
+
+🛠️ Backend (NestJS + Prisma)
+O backend fornece as APIs REST e integrações com o banco de dados PostgreSQL.
+
+▶️ Como rodar
+
+cd backend
+yarn install
+yarn run dev
+🗃️ Configuração do Banco de Dados
+Para conectar o backend a um banco de dados PostgreSQL:
+
+Copie o arquivo .env.sample localizado na pasta backend.
+
+Renomeie para .env.
+
+Atualize a variável DATABASE_URL com sua conexão PostgreSQL, por exemplo:
+
+env
+DATABASE_URL="postgresql://user:password@localhost:5432/salao_db"
+Execute as migrations:
+
+bash
+npx prisma migrate dev
+✅ Scripts Importantes
+Backend (/backend)
+yarn dev: Inicia o servidor em modo de desenvolvimento
+
+yarn build: Compila o projeto
+
+yarn test: Executa testes unitários e2e
+
+npx prisma studio: Abre o painel visual do Prisma
+
+Frontend (/frontend)
+yarn dev: Inicia o servidor Next.js
+
+yarn build: Gera a aplicação para produção
+
+Mobile (/mobile)
+yarn dev: Inicia o Expo
+
+yarn android / yarn ios: Executa no simulador
+
+yarn web: Executa a versão web do app mobile
+
+
+
 
 ![5](https://github.com/user-attachments/assets/dc5fcd9c-808c-46a8-a1c5-cdf505d8e042)
 
@@ -25,87 +119,3 @@ Mobile
 ![3](https://github.com/user-attachments/assets/5aa5be83-dc66-44df-a524-ee5564eb3bcb)
 
 ![4](https://github.com/user-attachments/assets/404543a4-1488-4b60-a6cc-1dfb6b82c906)
-
-
-
-# Turborepo starter
-
-This is an official starter Turborepo.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
-
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
