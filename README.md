@@ -94,28 +94,30 @@ yarn build: Gera a aplicação para produção
 
 Mobile (/mobile)
 yarn dev: Inicia o Expo
-
 yarn android / yarn ios: Executa no simulador
 
 yarn web: Executa a versão web do app mobile
 
+![image11](https://github.com/user-attachments/assets/c4425924-d71e-4ec6-a7e5-0e1217208914)
+
+![image10](https://github.com/user-attachments/assets/dbd30acc-25e6-4904-b38c-548ae75eba2e)
+
+![image9](https://github.com/user-attachments/assets/7cd56557-1c8e-4688-9a80-47e1ab227993)
+
+![image8](https://github.com/user-attachments/assets/48305fc1-49b1-4cac-931b-c6f81291256e)
+
+![image7](https://github.com/user-attachments/assets/3b876393-ab46-49ac-a96e-f7a6ef80f70d)
+
+![image6](https://github.com/user-attachments/assets/c4d4eac0-7215-4f49-b215-343ce84d526d)
+
+![image4](https://github.com/user-attachments/assets/b592d786-acf6-4fc2-bfab-a58137edc605)
+
+![image3](https://github.com/user-attachments/assets/7a800025-4cdb-4c97-a0ad-6e07bbdef559)
+
+![image2](https://github.com/user-attachments/assets/d96de956-c52e-4085-8bd0-70f1f8d99bc3)
+
+![image1](https://github.com/user-attachments/assets/c2684dff-a3b9-4a80-871e-bcf82e7c75cc)
 
 
 
-![5](https://github.com/user-attachments/assets/dc5fcd9c-808c-46a8-a1c5-cdf505d8e042)
 
-![6](https://github.com/user-attachments/assets/3813dfde-76d7-4c25-b3c2-26489dcf52c0)
-
-![7](https://github.com/user-attachments/assets/cd88c2e7-e889-4b03-b7d5-279680ac6f07)
-
-![8](https://github.com/user-attachments/assets/14540175-da51-469d-8b58-0c96e277aeac)
-
-Mobile
-
-![1](https://github.com/user-attachments/assets/cc2a4f3b-9e45-4765-b1d9-135198d32ef5)
-
-![2](https://github.com/user-attachments/assets/2cea9a5a-3167-4a50-9df4-7cf9841c5afd)
-
-![3](https://github.com/user-attachments/assets/5aa5be83-dc66-44df-a524-ee5564eb3bcb)
-
-![4](https://github.com/user-attachments/assets/404543a4-1488-4b60-a6cc-1dfb6b82c906)
