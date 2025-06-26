@@ -97,27 +97,21 @@ yarn dev: Inicia o Expo
 yarn android / yarn ios: Executa no simulador
 
 yarn web: Executa a versão web do app mobile
-
-![image11](https://github.com/user-attachments/assets/c4425924-d71e-4ec6-a7e5-0e1217208914)
-
-![image10](https://github.com/user-attachments/assets/dbd30acc-25e6-4904-b38c-548ae75eba2e)
-
-![image9](https://github.com/user-attachments/assets/7cd56557-1c8e-4688-9a80-47e1ab227993)
-
-![image8](https://github.com/user-attachments/assets/48305fc1-49b1-4cac-931b-c6f81291256e)
-
-![image7](https://github.com/user-attachments/assets/3b876393-ab46-49ac-a96e-f7a6ef80f70d)
-
-![image6](https://github.com/user-attachments/assets/c4d4eac0-7215-4f49-b215-343ce84d526d)
-
-![image4](https://github.com/user-attachments/assets/b592d786-acf6-4fc2-bfab-a58137edc605)
-
-![image3](https://github.com/user-attachments/assets/7a800025-4cdb-4c97-a0ad-6e07bbdef559)
-
-![image2](https://github.com/user-attachments/assets/d96de956-c52e-4085-8bd0-70f1f8d99bc3)
-
-![image1](https://github.com/user-attachments/assets/c2684dff-a3b9-4a80-871e-bcf82e7c75cc)
+```
 
 
+![image1](https://github.com/user-attachments/assets/16cd17ae-ccc4-4278-9af4-46ce89c01e40)
+
+![image2](https://github.com/user-attachments/assets/0fbb5303-2975-4451-bc73-f32d99931c09)
+
+![image3](https://github.com/user-attachments/assets/7bff38d3-530a-4d57-b73f-5b6d850a87a0)
+
+![image11](https://github.com/user-attachments/assets/093ae1a2-9c8f-4470-99b5-be522ddab5a6)
+![image10](https://github.com/user-attachments/assets/986237e5-9308-43c3-81dc-08e3bbb80282)
+![image9](https://github.com/user-attachments/assets/418fb220-20a8-4fcb-8542-3ceaef077b58)
+![image8](https://github.com/user-attachments/assets/c4544d54-69e1-45bb-8fd8-90ac47bc8936)
+![image7](https://github.com/user-attachments/assets/9504f065-f075-4ff8-95e2-e53a76da57d5)
+![image6](https://github.com/user-attachments/assets/3fa4f9d7-4b4a-44c2-ad85-5968c9aacda2)
+![image4](https://github.com/user-attachments/assets/89d66666-bdb8-4bb2-8758-b9d48f2194d6)
 
 
